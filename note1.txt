@@ -1,0 +1,13 @@
+session storage and local storage
+------------------------------------
+
+
+=>both are mostly similiar storages provided by browser
+=>can store data in string format specifically in both
+=>local storage data remains there if it is not cleared ,but session storage data get removed automatically after a specific amount of time.
+=>data storage and access are similiar in implementation in the case of both
+=>localstorage& session storage are the predefined js objects that used for handling both storages
+
+=>local storage:
+
+localStorage

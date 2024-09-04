@@ -1,7 +1,19 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
+import { useNavigate } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 function Header() {
+
+  const nav=useNavigate()
+  
+  const logout=()=>{
+    nav('/')
+    sessionStorage.removeItem(`userData`)
+  }
+
+
+
+
   return (
   <>
  
@@ -13,6 +25,7 @@ function Header() {
            Media Player
           </Navbar.Brand>
         </Container>
+        <button className="btn btn-danger" onClick={logout}>LOGOUT</button>
       </Navbar>
   </>
 )

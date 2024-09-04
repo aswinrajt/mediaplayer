@@ -1,0 +1,1 @@
+State lifting:= Technique or passing data from child to parent component

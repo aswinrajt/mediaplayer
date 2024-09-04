@@ -15,7 +15,7 @@ function Landing() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut veritatis facilis esse harum praesentium tempora consequuntur sed impedit, eius saepe ad voluptate obcaecati natus quos, voluptatem fugit magni similique cum!</p>
           
           <div className='d-grid'>
-            <Link to={'/home'} className='btn btn-danger'>Let's Go</Link>
+            <Link to={'/log'} className='btn btn-danger'>Let's Go</Link>
           </div>
           
           
